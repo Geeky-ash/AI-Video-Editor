@@ -1,0 +1,155 @@
+{
+  "activeTheme": "creator-aesthetic",
+  "themes": {
+    "creator-aesthetic": {
+      "name": "Creator Warm Aesthetic (Tiramisu Reference Style)",
+      "canvas": { "width": 1080, "height": 1920, "fps": 60 },
+      "fonts": {
+        "hook": "Playfair Display",
+        "body": "Poppins",
+        "script": "Caveat"
+      },
+      "colors": {
+        "accent": "#F3C93E",
+        "text": "#FFFFFF",
+        "pillBg": "#FFFDF8",
+        "pillText": "#1E1E1E",
+        "shadow": "rgba(0, 0, 0, 0.85)"
+      },
+      "captions": {
+        "yPercent": 0.74,
+        "fontSize": 58,
+        "maxCharsPerCue": 16,
+        "highlightColor": "#F3C93E"
+      },
+      "pacing": {
+        "averageShotSec": 1.5,
+        "punchInScale": 1.3
+      },
+      "audio": {
+        "targetLUFS": -14.0,
+        "musicDuckDb": -22
+      }
+    },
+    "apple-minimal": {
+      "name": "Apple Minimalist",
+      "canvas": { "width": 1080, "height": 1920, "fps": 60 },
+      "fonts": {
+        "hook": "SF Pro Display",
+        "body": "SF Pro Text",
+        "script": "SF Pro Display"
+      },
+      "colors": {
+        "accent": "#2997FF",
+        "text": "#F5F5F7",
+        "pillBg": "rgba(255, 255, 255, 0.12)",
+        "pillText": "#FFFFFF",
+        "shadow": "rgba(0, 0, 0, 0.4)"
+      },
+      "captions": {
+        "yPercent": 0.78,
+        "fontSize": 52,
+        "maxCharsPerCue": 20,
+        "highlightColor": "#2997FF"
+      },
+      "pacing": {
+        "averageShotSec": 2.2,
+        "punchInScale": 1.2
+      },
+      "audio": {
+        "targetLUFS": -14.0,
+        "musicDuckDb": -24
+      }
+    },
+    "nike-impact": {
+      "name": "Nike High-Impact Energy",
+      "canvas": { "width": 1080, "height": 1920, "fps": 60 },
+      "fonts": {
+        "hook": "Druk Wide Bold",
+        "body": "Helvetica Neue",
+        "script": "Druk Wide Bold"
+      },
+      "colors": {
+        "accent": "#CCFF00",
+        "text": "#FFFFFF",
+        "pillBg": "#CCFF00",
+        "pillText": "#000000",
+        "shadow": "#000000"
+      },
+      "captions": {
+        "yPercent": 0.70,
+        "fontSize": 68,
+        "maxCharsPerCue": 12,
+        "highlightColor": "#CCFF00"
+      },
+      "pacing": {
+        "averageShotSec": 1.0,
+        "punchInScale": 1.4
+      },
+      "audio": {
+        "targetLUFS": -14.0,
+        "musicDuckDb": -20
+      }
+    },
+    "spotify-pulse": {
+      "name": "Spotify Pulse",
+      "canvas": { "width": 1080, "height": 1920, "fps": 60 },
+      "fonts": {
+        "hook": "Circular Std Bold",
+        "body": "Circular Std Book",
+        "script": "Circular Std Bold"
+      },
+      "colors": {
+        "accent": "#1ED760",
+        "text": "#FFFFFF",
+        "pillBg": "#121212",
+        "pillText": "#1ED760",
+        "shadow": "rgba(0, 0, 0, 0.9)"
+      },
+      "captions": {
+        "yPercent": 0.72,
+        "fontSize": 60,
+        "maxCharsPerCue": 14,
+        "highlightColor": "#1ED760"
+      },
+      "pacing": {
+        "averageShotSec": 1.4,
+        "punchInScale": 1.25
+      },
+      "audio": {
+        "targetLUFS": -14.0,
+        "musicDuckDb": -22
+      }
+    },
+    "redbull-action": {
+      "name": "Red Bull Action Dynamic",
+      "canvas": { "width": 1080, "height": 1920, "fps": 60 },
+      "fonts": {
+        "hook": "Futura Extra Bold",
+        "body": "Barlow Condensed Bold",
+        "script": "Futura Extra Bold"
+      },
+      "colors": {
+        "accent": "#FFE500",
+        "text": "#FFFFFF",
+        "pillBg": "#DB0A26",
+        "pillText": "#FFFFFF",
+        "shadow": "#0C182B"
+      },
+      "captions": {
+        "yPercent": 0.70,
+        "fontSize": 64,
+        "maxCharsPerCue": 12,
+        "highlightColor": "#FFE500"
+      },
+      "pacing": {
+        "averageShotSec": 0.9,
+        "punchInScale": 1.35
+      },
+      "audio": {
+        "targetLUFS": -14.0,
+        "musicDuckDb": -18
+      }
+    }
+  }
+}

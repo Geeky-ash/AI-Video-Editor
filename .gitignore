@@ -1,0 +1,27 @@
+# Large binaries and AI models
+whisper.cpp/
+*.bin
+*.exe
+*.dll
+*.obj
+*.pdb
+*.lib
+
+# Temporary clone directories
+master-skills/
+
+# Large media files (raw unedited footage & downloaded reference video files)
+Raw footage/
+References/*.mp4
+*.mp4.part
+*.y4m
+
+# Exports (keep proof screenshots, ignore heavy video renders)
+Exports/*.mp4
+
+# Cache & Environment
+node_modules/
+.cache/
+*.log
+.DS_Store
+Thumbs.db
