@@ -1,3 +1,26 @@
+# Media and generated files
+Raw footage/
+raw footage/
+Archive/
+archive/
+Exports/
+exports/
+References/
+references/
+voice/
+segments/
+frames/
+transcripts/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.part
+*.y4m
+
+# Temporary clone directories
+master-skills/
+
 # Large binaries and AI models
 whisper.cpp/
 *.bin
@@ -7,20 +30,14 @@ whisper.cpp/
 *.pdb
 *.lib
 
-# Temporary clone directories
-master-skills/
+# Secrets
+.env
+*.key
 
-# Large media files (raw unedited footage & downloaded reference video files)
-Raw footage/
-References/*.mp4
-*.mp4.part
-*.y4m
-
-# Exports (keep proof screenshots, ignore heavy video renders)
-Exports/*.mp4
-
-# Cache & Environment
+# Junk & Caches
 node_modules/
+__pycache__/
+*.pyc
 .cache/
 *.log
 .DS_Store
