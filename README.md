@@ -2,7 +2,7 @@
 
 An automated, intelligent video editing workstation powered by AI agent workflows, Remotion, HyperFrames, FFmpeg, and Whisper.cpp.
 
-Designed to turn raw camera/phone footage into high-retention, polished vertical short-form videos (Instagram Reels, YouTube Shorts, and TikTok) following professional editing standards and custom brand kits.
+Designed to turn raw camera/phone footage into high-retention, polished vertical short-form videos (Instagram Reels, YouTube Shorts, and TikTok) following professional editing standards, cinematic templates, and custom brand kits.
 
 ---
 
@@ -10,9 +10,35 @@ Designed to turn raw camera/phone footage into high-retention, polished vertical
 
 - **Automated Pacing & Dead-Air Removal**: Precision cutting of silences and pauses $> 0.1\text{s}$ using speech boundary and transcript alignment.
 - **Brand System Integration**: Live brand kit enforcement (`brand.config.json`) specifying palette tokens, header/body typography, drop shadows, and platform safe zones.
-- **Audio Mastering**: Broadcast-standard loudness normalization to `-14 LUFS` integrated loudness with automatic background music ducking.
+- **Cinematic Product Videos (`video-shotcraft`)**: 124 modular motion-graphics shot recipes, Ink Press promo template, and interactive workbench previewing.
+- **Audio Mastering & Sound Design**: Broadcast-standard loudness normalization to `-14 LUFS` integrated loudness with automatic background music ducking, beat synchronization, and Freesound SFX sourcing.
 - **Motion Graphics & Dynamic Badging**: Remotion and native graphic components including punch-in zooms, floating badges, kinetic subtitles, and smooth transitions.
 - **Automated Verification Loop**: Frame sampling and quality checks across entry, middle, and exit cut points prior to export.
+
+---
+
+## 🧠 Integrated Agent Skills
+
+The editor is equipped with specialized agent skill suites that automate every stage of video production:
+
+### 🌟 Featured: Cinematic & Product Motion
+- **[`video-shotcraft`](https://github.com/Vincentwei1021/video-shotcraft)**:
+  - **124 Cinematic Shot Cards**: Reusable visual formulas with demo source code and dynamic previews (camera fly-throughs, counters, kinetic text, split screens, and UI reveals).
+  - **Ink Press Template**: Complete, verified promo film template for web and desktop products.
+  - **Sound Design & SFX Tools**: Beat sync, timing measurement, and sound effect sourcing with Freesound integration.
+  - **3 Creation Modes**: *Template Replacement*, *Autonomous Free Creation*, and *Guided Co-Creation*.
+
+### ✂️ Video Editing & Assembly
+- **`video-editor-pro`**: Operating guidelines for professional video editing (Orient $\rightarrow$ Inspect $\rightarrow$ Plan $\rightarrow$ Batch Execute $\rightarrow$ Visual Verification $\rightarrow$ Proven Export).
+- **`video-editing`**: AI-assisted footage cutting, jump cuts, visual enhancements, and synthesis pipelines.
+- **`video-edit`**: Fast local FFmpeg commands for trimming, concatenating, resizing, speed manipulation, and compression.
+- **`edit`**: End-to-end talking head editing, silence removal, subtitle timing, and audio finishing at `-14 LUFS`.
+- **`virality`**: Retention analysis, hook scoring, AI-slop elimination, and viral pacing formulas.
+
+### 🎨 Rendering & Graphics Engines
+- **`remotion-*` Suite**: Full Remotion toolset including captions animation, studio preview, maps, SaaS video generation, and multi-track rendering.
+- **`hyperframes` Suite**: HTML-to-video rendering framework with pre-built registry blocks, camera moves, and kinetic type.
+- **`figma`**: Direct ingestion of Figma design frames, brand tokens, and vectors into animated video compositions.
 
 ---
 
@@ -29,8 +55,8 @@ Designed to turn raw camera/phone footage into high-retention, polished vertical
 ## 📂 Repository Structure
 
 ```
-├── .agent/              # Agent skills (build, edit, virality, video-editor-pro)
-├── .agents/             # Remotion & HyperFrames agent skills and registries
+├── .agent/skills/       # Active agent skills (video-shotcraft, edit, virality, etc.)
+├── .agents/skills/      # Remotion, HyperFrames & video-shotcraft skill engines
 ├── Exports/
 │   └── proof/           # Verifiable frame snapshots from final video exports
 ├── References/
@@ -40,7 +66,8 @@ Designed to turn raw camera/phone footage into high-retention, polished vertical
 ├── AGENTS.md            # Agent editing guidelines & craft rules
 ├── GEMINI.md            # LLM prompt & operational loop specifications
 ├── brand.config.json    # Adaptable brand palette, typography, and styling config
-└── skills-lock.json     # Installed skill lockfile
+├── skills-lock.json     # Installed skill lockfile & provenance
+└── README.md            # Project documentation
 ```
 
 ---
